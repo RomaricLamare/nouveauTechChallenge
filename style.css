@@ -1,0 +1,143 @@
+ul {
+  background: gold;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  outline-style: double;
+  outline-color: black;
+  font-size: 13px;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: black;
+  text-decoration: purple;
+}
+
+ul li a:hover {
+  color: mediumblue;
+  font-size: 16px;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+}
+
+#welcome {
+  background-image: url("assets/palace2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 900px;
+}
+
+h1 {
+  font-size: 50px;
+  color: gold;
+  text-decoration: black;
+  text-shadow: 1px 1px #333;
+  text-align: center;
+}
+
+body {
+  font-family: aboreto;
+  background-image: url("assets/back.png");
+}
+
+h2 {
+  color: gold;
+  text-decoration: black;
+  text-shadow: 1px 1px #333;
+  font-size: 35px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  text-align: center;
+}
+
+#inventory {
+  table-layout: fixed;
+  width: 100%;
+  border: 3px solid gold;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+th {
+  text-align: left;
+  background-color: orange;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: gold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: goldenrod;
+}
+
+tfoot {
+  background-color: orange;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+}
+
+#email {
+  width: 250px;
+}
+
+textarea {
+  width: 300px;
+  height: 200px;
+}
+
+#fillin {
+  text-align: center;
+}
+
+caption {
+  padding-bottom: 5px;
+}
